@@ -1,7 +1,7 @@
 var https = require('https');
 // better to require this here or in the http-functions.js page??
 
-var getHTML = require('./http-functions');
+var getHTML = require('./callbacks/http-functions');
 
 var requestOptions = {
   host: 'sytantris.github.io',
